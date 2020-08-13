@@ -61,6 +61,7 @@ class SiparisAdapter(val myContext: Context, val siparisler: ArrayList<SiparisDa
                             .setPositiveButton("Onayla", object : DialogInterface.OnClickListener {
                                 override fun onClick(p0: DialogInterface?, p1: Int) {
 
+
                                     var siparisData = SiparisData(
                                         siparisler[position].siparis_zamani,
                                         siparisler[position].siparis_teslim_zamani,
